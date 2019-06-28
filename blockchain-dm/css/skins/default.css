@@ -1,0 +1,588 @@
+a:hover {
+    text-decoration: none;
+}
+
+.button-theme {
+    background: #f48220;
+    border: 2px solid #e47618;
+}
+
+.button-theme:hover {
+    background: #e4710d;
+    border: 2px solid #e47618;
+}
+
+#page_scroller {
+    background: #f48220;
+}
+
+.overlay-link:hover{
+    background: #f48220;
+    border:2px solid #e47618;
+}
+
+.contact-2 .contact-details .media .media-left i {
+    color: #f48220;
+    border: 1px dashed #f48220;
+}
+
+.property-content .title a{
+    color: #f48220;
+}
+
+.setting-button{
+    background: #f48220;
+}
+
+.option-panel h2{
+    color: #f48220;
+}
+
+.list-inline-listing .active{
+    background: #f48220;
+    border: solid 2px #f48220;
+}
+
+.list-inline-listing li:hover{
+    background: #f48220;
+    border: solid 2px #f48220;
+}
+
+.checkbox-theme input[type="checkbox"]:checked + label::before {
+    border: 2px solid #f48220;
+}
+
+input[type=checkbox]:checked + label:before {
+    color: #f48220;
+}
+
+.out-line-btn{
+    border: solid 2px #f48220;
+    color: #f48220;
+}
+
+.out-line-btn:hover{
+    border: solid 2px #f48220;
+    background: #f48220;
+    color: #fff;
+}
+
+.property-content .facilities-list li i{
+    color: #f48220;
+}
+
+.panel-box .panel-heading .panel-title a i{
+    color: #f48220;
+}
+
+.properties-amenities ul li i {
+    color: #f48220;
+}
+
+.properties-condition ul li i {
+    color: #f48220;
+}
+
+.banner-detail-box h3{
+    color: #f48220;
+}
+
+.border-button-theme {
+    border: 2px solid #f48220;
+    color: #f48220;
+}
+
+.border-button-theme:hover {
+    background: #f48220;
+    color: #fff !important;
+}
+
+.theme-tabs .nav-tabs > li > a {
+    background: #f48220;
+}
+
+.theme-tabs .nav-tabs > li.active > a,
+.theme-tabs .nav-tabs > li > a:hover {
+    color: #f48220; !important;
+}
+
+.theme-tabs .nav-tabs > li > a::after {
+    background: #f48220;
+}
+
+.theme-tabs .tab-nav > li > a::after {
+    background: #f48220 none repeat scroll 0% 0%;
+}
+
+.rightside-navbar li .button {
+    color: #f48220 !important;
+    border: 1px solid #f48220 !important;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    border-color: #f48220;
+    border-bottom: transparent;
+}
+
+.rightside-navbar li .button:hover {
+    background: #f48220 !important;
+}
+
+.modal-right-content .price{
+    color: #f48220;
+}
+
+.search-button {
+    background: #f48220;
+
+}
+
+.modal-right-content .bullets li i{
+   color: #f48220;
+}
+
+.modal-left-content .control {
+    background: #f48220;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #f48220 !important;
+    border-top: solid 5px #f48220 !important;
+}
+
+.main-header .navbar-default .nav > li > a:hover {
+   color: #f48220;
+    border-top: solid 5px #f48220;
+}
+
+.intro-section {
+    background: #f48220;
+}
+
+.search-button:hover {
+    color: #fff;
+    background: #e4710d;
+}
+
+.panel-box .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: #f48220;
+    color: #fff;
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.15);
+}
+
+.properties-panel-box .nav-tabs>li>a:hover {
+    color: #fff;
+    background: #f48220;
+}
+
+.service-item .detail {
+    border-top: solid 3px #f48220;
+}
+
+.heading-properties p i{
+    color: #f48220;
+    margin-right: 5px;
+}
+
+.heading-properties h5{
+    color: #f48220;
+}
+
+.heading-properties h3 span{
+    color: #f48220;
+}
+
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    color: #f48220;
+}
+
+.bootstrap-select .dropdown-menu li a {
+    color: #f48220;
+}
+
+.bootstrap-select .dropdown-menu li a:hover {
+    background: #f48220;
+}
+
+.bootstrap-select .dropdown-menu > .active > a,
+.bootstrap-select .dropdown-menu > .active > a:focus,
+.bootstrap-select .dropdown-menu > .active > a:hover {
+    color: #f48220;
+}
+
+.for-sale {
+    background: #f48220;
+}
+
+.our-service .content i {
+    color: #f48220;
+}
+
+.our-service .content h4 {
+    color: #f48220;
+}
+
+.service-item .icon {
+    color: #f48220;
+}
+
+.agent-1 .agent-content h5 a:hover{
+    color: #f48220;
+}
+
+.view-all ul li a:hover{
+   background: #f48220;
+    color: #fff;
+}
+
+.property-2 .content .title a{
+    color: #f48220;
+}
+
+.property-2 .facilities-list li i{
+    color: #f48220;
+}
+
+.property-2 .featured{
+    background: #f48220;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #f48220;
+    border-left: solid 5px #f48220;
+}
+
+.option-bar .heading-icon{
+    background: #f48220;
+}
+
+.change-view-btn {
+    color: #f48220;
+    border: solid 1px #f48220;
+}
+
+.btn-outline{
+    border: solid 1px #f48220;
+    color: #f48220;
+}
+
+.btn-outline:hover{
+    border: solid 1px #e4710d;
+    background: #e4710d;
+    color: #fff;
+}
+
+.popular .price-for-user{
+    color: #f48220;
+}
+
+.pricing-3.featured .listing-badges .featured{
+    background: #f48220;
+}
+
+.change-view-btn:hover {
+    border: solid 1px #f48220;
+    background: #f48220;
+}
+
+.active-view-btn {
+    background: #f48220;
+    border: solid 1px #f48220;
+}
+
+.active-view-btn:hover {
+    border: solid 1px #f48220;
+    color: #f48220;
+}
+
+.listing-properties-box .detail header.title a {
+    color: #f48220;
+}
+
+.listing-properties-box .detail .title::after {
+    background-color: #f48220;
+}
+
+.show-more-options, .show-more-options:hover {
+    color: #f48220;
+}
+
+.pagination > li > a:hover {
+    background: #f48220;
+    border-color: #f48220;
+}
+
+.pagination > .active > a {
+    background: #f48220;
+    border-color: #f48220;
+}
+
+.pagination > .active > a:hover {
+    background: #f48220;
+    border-color: #f48220;
+}
+
+.blog-box .detail .post-meta span a i {
+    color: #f48220;
+}
+
+.agent-2 .agent-content h1 a:hover{
+    color: #f48220;
+}
+.form-content-box .footer span a {
+    color: #f48220;
+}
+
+blockquote {
+    border-left: 5px solid #f48220;
+}
+
+.banner-search-box{
+    border-top: solid 5px #f48220;
+}
+
+.tab-style-2-line > .nav-tabs > li.active > a {
+    border: solid 1px #f48220 !important;
+    background: #f48220;
+}
+
+.tab-style-2-line > .nav-tabs > li.active > a:hover {
+    border: solid 1px #f48220 !important;
+    background: #f48220 !important;;
+}
+
+.agent-2 .agent-content h3 a:hover{
+    color: #f48220;
+}
+
+.agent-detail h3 a:hover{
+    color: #f48220;
+}
+
+.address-list li span i{
+    color: #f48220;
+}
+
+.read-more{
+    color: #f48220;
+}
+
+.blog-box .date-box{
+    background:  #f48220;
+}
+
+.services-info i{
+    color: #f48220;
+}
+
+.services-info-3 i{
+    color: #f48220;
+}
+
+.archives ul li a:hover{
+    color: #f48220;
+}
+.range-slider .ui-slider .ui-slider-handle {
+    background: #f48220;
+}
+
+.range-slider .ui-slider .ui-slider-handle {
+    border: 2px solid #f48220;
+}
+
+.property-tag.featured {
+    background: #f48220;
+}
+
+.range-slider .ui-widget-header {
+    background-color: #f48220;
+}
+
+.category-posts ul li a:hover {
+    color: #f48220;
+}
+
+.tags-box ul li a:hover {
+    border: 1px solid #f48220;
+    background: #f48220;
+}
+
+.latest-tweet a {
+    color: #f48220;
+}
+
+.popular-posts .media-heading a {
+    color: #f48220;
+}
+
+.comment-meta-author a {
+    color: #f48220;
+}
+
+.comment-meta-reply a {
+    background-color: #f48220;
+}
+
+.contact-1 .contact-details .media .media-left i {
+    color: #f48220;
+    border: 1px dashed #f48220;
+}
+
+.about-text ul li i {
+    color: #f48220;
+}
+
+.breadcrumbs li a:hover {
+    color: #f48220;
+}
+
+.top-header ul li a:hover {
+    color: #f48220;
+}
+
+.helping-center .icon {
+    color: #f48220;
+}
+
+.main-title-2 h1 a:hover{
+    color: #f48220;
+}
+
+.option-bar h4 {
+    color: #f48220;
+}
+
+.attachments a:hover{
+    color: #f48220;
+}
+
+.additional-details-list li a:hover{
+    color: #f48220;
+}
+
+.user-account-box  .content ul li .active {
+    color: #f48220;
+    border-left: solid 5px #f48220;
+}
+
+.user-account-box  .content ul li a:hover{
+    color: #f48220;
+    border-left: solid 5px #f48220;
+}
+
+.photoUpload {
+    background: #fff;
+    color: #f48220;
+}
+
+table.manage-table .title-container .title h4 a{
+    color: #f48220;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+    color: #f48220;
+    background-color: transparent;
+}
+
+table.manage-table .title-container .title span i{
+    color: #f48220;
+    margin-right: 5px;
+}
+
+.panel-box span a{
+    color: #f48220;
+}
+
+table.manage-table td.action a:hover{
+    color: #f48220;
+}
+
+.typography-page mark.color {
+    background-color: #f48220;
+}
+
+.list-3 li:before, .list-2 li:before, .list-1 li:before {
+    color: #f48220;
+}
+
+.numbered.color.filled ol > li::before {
+    border: 1px solid #f48220;
+    background-color: #f48220;
+}
+
+.numbered.color ol > li::before {
+    border: 1px solid #f48220;
+    color: #f48220;
+}
+
+.map-marker:hover {
+    background-color: #f48220;
+    cursor: pointer;
+}
+.map-marker:hover:before {
+    border-color: #f48220 transparent transparent transparent;
+}
+
+.map-marker.featured:hover {
+    background-color: #f48220;
+}
+.map-marker.featured:hover:before {
+    border-color: #f48220 transparent transparent transparent;
+}
+
+.map-marker .icon {
+    border: 3px solid #f48220;
+}
+
+.marker-active .map-marker {
+    background-color: #f48220;
+}
+.marker-active .map-marker:before {
+    border-color: #f48220 transparent transparent transparent;
+}
+
+.map-properties .address i{
+    color: #f48220;
+}
+
+.map-properties-btns .border-button-theme{
+    color: #f48220; !important;
+}
+
+.map-properties-btns .border-button-theme:hover{
+    color: #fff !important;
+}
+.map-properties .map-content h4 a{
+    color: #f48220;
+}
+
+.dropzone-design:hover {
+    border: 2px dashed #f48220;
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #f48220;
+    }
+
+    .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+        background-color: #f48220;
+        color: #fff! important;
+    }
+
+    .main-header .navbar-default .nav > li > a:hover {
+        background: #f48220;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: #f48220; !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        background: #eee;
+    }
+}
