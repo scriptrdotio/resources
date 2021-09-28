@@ -1,0 +1,16 @@
+var appCachedTemplates = (["$templateCache", function($templateCache) {  'use strict';
+
+  $templateCache.put('app/view/javascript/components/forms/overlayForm.html',
+    "<div class=modal-header><h4 class=\"modal-title col-xs-12\" id=modal-title>{{$ctrl.widget.label}}</h4></div><form name=myForm ng-submit=$ctrl.onSubmit(myForm)><div class=modal-body><div html-class=bls sf-options=$ctrl.frmGlobalOptions sf-schema=$ctrl.schema sf-form=$ctrl.form sf-model=$ctrl.model></div></div><div class=modal-footer><div class=col-xs-12><button type=reset class=\"btn btn-default\" ng-click=$ctrl.onCancel()>{{$ctrl.widget.buttons.cancel.label}}</button> <button type=submit class=\"btn btn-primary\">{{$ctrl.widget.buttons.save.label}}</button></div></div></form>"
+  );
+
+
+  $templateCache.put('app/view/javascript/components/grid/grid.html',
+    "<div class=filter-bar ng-if=\"($ctrl.enableClientSideFilter && $ctrl.mode == 'normal') || ($ctrl.enableServerSideFilter && $ctrl.mode == 'infinite') || !$ctrl.disableAddRow || !$ctrl.disableDeleteRow\"><div class={{$ctrl.class}}><form><div ng-if=\"$ctrl.enableClientSideFilter && $ctrl.mode == 'normal'\" class=\"form-group col-xs-12 col-sm-6\"><div class=form-group><input class=form-control ng-change=$ctrl.onFilterChanged() ng-model=$ctrl.quickFilterValue placeholder=\"Client filter\"></div></div><div ng-if=\"$ctrl.enableServerSideFilter && $ctrl.mode == 'infinite'\" class=\"form-group col-xs-10\"><div class=form-group><input class=form-control ng-change=$ctrl.onServerFilterChanged() ng-model=$ctrl.serverFilterText placeholder=\"search users\"></div></div><div class=\"col-xs-2 pull-right text-right\"><button ng-hide={{$ctrl.disableDeleteRow}} ng-click=$ctrl.openConfirmationPopUp() class=\"btn btn-default mt4\" tooltip-placement=left uib-tooltip=\"Delete selected row\"><i class=\"fa fa-close\" aria-hidden=true></i></button> <button ng-hide={{$ctrl.disableAddRow}} ng-click=$ctrl.onAddRow() class=\"btn btn-warning mt4\" tooltip-placement=bottom uib-tooltip=\"Insert row\"><i class=\"fa fa-plus\" aria-hidden=true></i></button></div></form></div></div><div class=col-xs-12 ng-show=$ctrl.showError><div class=alert ng-class=\"'alert-' + ( $ctrl.message.type || 'warning')\">{{$ctrl.message.content}}</div></div><div class=clearfix></div><div class=col-xs-12><div ag-grid=$ctrl.gridOptions class=ag-bootstrap ng-style=$ctrl.style style=\"min-height: 200px\"></div></div>"
+  );
+
+
+  $templateCache.put('app/view/javascript/components/search/search.html',
+    "<div class=\"col-xs-12 autocomplete-wrap\"><label>{{$ctrl.label}}</label><scriptr-autocomplete id=devicesList placeholder={{$ctrl.placeholder}} pause=400 search-fields={{$ctrl.searchFields}} title-field={{$ctrl.titleField}} minlength=0 api={{$ctrl.api}} text-searching=Searching... text-no-results=\"Not found.\" msg-tag=devices-search-box transport=wss objects=[] initial-value={{$ctrl.selectedValue}} on-format-data=$ctrl.listCallback selected-object=$ctrl.onSelect input-changed=$ctrl.onInputChanged input-class=\"form-control form-control-small devicesList\"></scriptr-autocomplete></div>"
+  );
+}])

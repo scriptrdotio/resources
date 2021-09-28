@@ -1,0 +1,30 @@
+<project name="deploy-scriptr-cdn" default="upload-ressources-to-s3" basedir=".">
+
+	<input addproperty="node.name" defaultvalue="prod" message="Please enter the properties file to use.">
+	</input>
+	<input addproperty="upload.dir" defaultvalue="compagno" message="Please enter the directory to upload." >
+	</input>
+	
+	<tstamp>
+		<format property="packageDate" pattern="yyyy-MM-dd" locale="en,GB"/>
+	</tstamp>
+	
+	
+	<target name="init-node-properties">
+		<property file="${basedir}/build.${node.name}.properties"/>
+		<property name="static_dir" value="${basedir}/../${upload.dir}/"></property>
+	</target>
+
+	<target name="upload-ressources-to-s3" depends="init-node-properties">
+		<exec executable="${s3cmd.path}s3cmd">
+			<!-- AWS s3 bucket access key -->
+			<arg value="--access_key"/><arg value="${s3Bucket.key}" />
+		    <arg value="--secret_key"/><arg value="${s3Bucket.secret}" />
+			<!-- Store files with ACL allowing read for anyone. -->
+			<arg value="--acl-public"/><arg value="-v"/><arg value="--recursive"/><arg value="--force"/>
+			<arg value="--exclude"/><arg value="*build/*" />
+			<arg value="--exclude"/><arg value="*.git/*" />
+			<arg value="put"/><arg value="${static_dir}"/><arg value="s3://${s3Bucket.root}/${upload.dir}/"/>
+		</exec>
+	</target>
+</project>
